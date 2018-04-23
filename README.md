@@ -25,8 +25,8 @@
 
 ## Points to be noted
 
-* Make sure HSQL DB server is running before running the test case. (Download HSQL DB from https://sourceforge.net/projects/hsqldb/files/ )
-* Run individual test cases inside /HibernateSample/src/test/java/com/home/hibernate/test/HibernateTest.java as *JUnit test*.  
+* Make sure MySQL DB server is running before running the test case. (using `systemctl status mysql`).
+* Run individual test cases inside src/test/java/com/home/hibernate/test/HibernateTest.java as *JUnit test*.  
 * TestCase name is self explanatory  
 * Modify the hibernate.cfg.xml file as per your DB details  
 * After running the test case, check the console output to understand the flow  
