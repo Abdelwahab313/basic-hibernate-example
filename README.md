@@ -25,13 +25,8 @@
 
 ## Points to be noted
 
-<<<<<<< HEAD
-* Make sure HSQL DB server is running before running the test case. (Download HSQL DB from https://sourceforge.net/projects/hsqldb/files/ )
-* Run individual test cases inside /HibernateSample/src/test/java/com/home/hibernate/test/HibernateTest.java as *JUnit test*.  
-=======
 * Make sure MySQL DB server is running before running the test case. (using `systemctl status mysql`).
 * Run individual test cases inside src/test/java/com/home/hibernate/test/HibernateTest.java as *JUnit test*.  
->>>>>>> my_Clone
 * TestCase name is self explanatory  
 * Modify the hibernate.cfg.xml file as per your DB details  
 * After running the test case, check the console output to understand the flow  
@@ -46,14 +41,10 @@
 * *Note: Run individual test cases instead of running all the test cases together to understand better. Comment non related annotations and uncomment required annotations by refering the test case and entity class so that you will not get confused.*  
  
 
-<<<<<<< HEAD
- 
-=======
 * To install HSQL you need to install it via the command:
    -From GUI:
 	 java -jar lib/hsqldb.jar &
    -Start Server:
 	 java -classpath lib/hsqldb.jar org.hsqldb.server.Server &
 
->>>>>>> my_Clone
 
